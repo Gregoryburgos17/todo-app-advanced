@@ -1,0 +1,77 @@
+.task-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .task-list h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+  }
+  
+  .task-list h3 {
+    color: #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  .task-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+  }
+  
+  .add-task-btn {
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .columns-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .task-column {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .task-column h4 {
+    margin-bottom: 10px;
+    color: #4a5568;
+  }
+  
+  .task-list-ul {
+    list-style-type: none;
+    padding: 0;
+    min-height: 50px;
+  }
+  
+  .task-item {
+    background-color: #f8f8f8;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .add-card-btn {
+    background-color: transparent;
+    border: none;
+    color: #4a5568;
+    cursor: pointer;
+    padding: 5px 0;
+    text-align: left;
+  }
